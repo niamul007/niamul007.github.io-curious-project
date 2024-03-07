@@ -3,11 +3,13 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-main{
+
+main {
     margin-left: 2rem;
     margin-right: 2rem;
 }
-.nav-container{
+
+.nav-container {
     height: 77px;
     display: flex;
     justify-content: space-between;
@@ -16,18 +18,20 @@ main{
     margin-right: 2rem;
 
 }
-.logo-name{
+
+.logo-name {
     font-family: Arial, Helvetica, sans-serif;
     color: #181818;
-    font-weight:bolder;
+    font-weight: bolder;
     text-decoration: none;
 }
-#logo{
+
+#logo {
     font: 2rem;
 
 }
 
-.nav-link{
+.nav-link {
     font-size: 13px;
     color: #181818;
     font-family: Arial, Helvetica, sans-serif;
@@ -36,22 +40,24 @@ main{
 
 }
 
-.search,.nav-link:hover{
+.search,
+.nav-link:hover {
     opacity: .5;
 }
-.search i{
+
+.search i {
     font-size: 16px;
     color: #181818;
 
 }
 
-.first-img{
+.first-img {
     --overlay-opacity: 0.5;
     background-image: url(1-630.jpg);
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:100vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -59,6 +65,7 @@ main{
     opacity: .90;
     position: relative;
 }
+
 .first-img::before {
     content: "";
     position: absolute;
@@ -68,32 +75,36 @@ main{
     height: 100%;
     background-color: rgba(0, 0, 0, var(--overlay-opacity));
 }
-.head{
+
+.head {
     font-size: 40px;
     margin-bottom: 2rem;
     font-family: Arial, Helvetica, sans-serif;
-    color:white;
+    color: white;
     margin-left: 2rem;
 
 }
-.para-for-first{
+
+.para-for-first {
     font-size: 22px;
-    font-family:  sans-serif;
-    color:white;
-    margin-bottom:20px;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 20px;
     margin-left: 2rem;
 
 
 }
+
 .about-first-img {
-    border-left: 8px solid  rgb(0, 153, 255) ;
+    border-left: 8px solid rgb(0, 153, 255);
     position: relative;
     width: 700px;
     height: 200px;
     z-index: 1;
     /* Additional styles for your content */
 }
-.btn-sub{
+
+.btn-sub {
     padding: .80rem 2rem;
     font-family: Arial, Helvetica, sans-serif;
     background-color: transparent;
@@ -103,7 +114,8 @@ main{
     margin-left: 2rem;
 
 }
-.btn-sub:hover{
+
+.btn-sub:hover {
     background-color: rgb(0, 153, 255);
     transition: 1s;
     cursor: pointer;
@@ -113,32 +125,36 @@ main{
 
 
 /* for menu bar  */
-#bar{
+#bar {
     position: relative;
 }
-.sidebar{
-    position:absolute;
+
+.sidebar {
+    position: absolute;
     right: 0%;
     top: 4rem;
     height: 50vh;
     padding: 30px;
     background-color: rgb(234, 235, 236);
     z-index: 999;
-    border-radius:30px ;
+    border-radius: 30px;
 }
-ul li{
+
+ul li {
     list-style: none;
     margin-bottom: .80rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
-.explore{
+
+.explore {
     margin-bottom: 1rem;
     color: #181818;
     font-size: 20px;
     font-weight: bold;
 }
-.hideBar .fa-times{
+
+.hideBar .fa-times {
     font-size: x-large;
     margin-bottom: 2rem;
     display: flex;
@@ -147,7 +163,7 @@ ul li{
 }
 
 /* japan and new york post div  */
-.post-container{
+.post-container {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
@@ -157,7 +173,7 @@ ul li{
 
 }
 
-.post-1{
+.post-1 {
     position: relative;
     display: flex;
     justify-content: start;
@@ -169,18 +185,19 @@ ul li{
     height: 450px;
     width: 609px;
 }
-.post-1::after{
+
+.post-1::after {
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgb(0, 0, 0,0.33);
+    background-color: rgb(0, 0, 0, 0.33);
 }
 
 
-.post-2{
+.post-2 {
     position: relative;
     display: flex;
     justify-content: start;
@@ -193,18 +210,19 @@ ul li{
     width: 609px;
 
 }
-.post-2::after{
+
+.post-2::after {
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgb(0, 0, 0,0.33);
+    background-color: rgb(0, 0, 0, 0.33);
 }
 
 
-.about-post-1{
+.about-post-1 {
     margin-left: 2rem;
     height: 150px;
     width: 100%;
@@ -213,7 +231,8 @@ ul li{
 
 
 }
-.about-post-2{
+
+.about-post-2 {
     margin-left: 2rem;
     height: 150px;
     width: 100%;
@@ -222,7 +241,8 @@ ul li{
 
 
 }
-#post-btn{
+
+#post-btn {
     padding: .80rem 2rem;
     font-family: Arial, Helvetica, sans-serif;
     background-color: transparent;
@@ -231,13 +251,15 @@ ul li{
     font-weight: 500;
     margin-top: 100px;
 }
-#post-btn:hover{
+
+#post-btn:hover {
     background-color: rgb(0, 153, 255);
     transition: 1s;
     cursor: pointer;
     border: none;
 }
-.about{
+
+.about {
     padding: 5px 10px;
     font-size: 14px;
     justify-content: center;
@@ -248,32 +270,36 @@ ul li{
     color: rgba(255, 255, 255, 0.887);
     font-family: Arial, Helvetica, sans-serif;
 }
-.about:hover{
+
+.about:hover {
     background-color: transparent;
     border: 2px solid whitesmoke;
 
 }
 
-.post-title{
+.post-title {
     font-size: 30px;
     font-weight: 800;
     color: white;
     margin-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.post-title:hover{
-    text-decoration:underline rgb(18, 224, 224);
+
+.post-title:hover {
+    text-decoration: underline rgb(18, 224, 224);
 }
-.post-author{
+
+.post-author {
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
 }
-strong{
+
+strong {
     color: white;
 }
 
 
-.post-3{
+.post-3 {
     position: relative;
     background-image: url(image_5.jpg);
     background-position: center;
@@ -285,23 +311,26 @@ strong{
     justify-content: left;
     align-items: self-start;
 }
-.post-3::after{
+
+.post-3::after {
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgb(0, 0, 0,0.33);
+    background-color: rgb(0, 0, 0, 0.33);
 }
-.about-post-3{
+
+.about-post-3 {
     margin-top: 3rem;
     margin-left: 4rem;
     width: 700px;
     z-index: 999;
 
 }
-.about-3{
+
+.about-3 {
     padding: 5px 20px;
     color: whitesmoke;
     font-weight: 500;
@@ -309,16 +338,28 @@ strong{
     background-color: rgba(0, 233, 233, 0.827);
     border: none;
 }
-.post-title-3{
+
+.about-3:hover {
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+}
+
+.post-title-3 {
     font-size: xx-large;
     color: white;
-    
+
 }
-.post-author-3{
+
+.post-title-3:hover {
+    text-decoration: underline rgb(18, 224, 224);
+}
+
+.post-author-3 {
     color: white;
     margin-top: 1.5rem;
 }
-#post-btn-3{
+
+#post-btn-3 {
     padding: .80rem 2rem;
     font-family: Arial, Helvetica, sans-serif;
     background-color: transparent;
@@ -327,7 +368,8 @@ strong{
     font-weight: 500;
     margin-top: 260px;
 }
-#post-btn-3:hover{
+
+#post-btn-3:hover {
     background-color: rgb(0, 153, 255);
     transition: 1s;
     cursor: pointer;
@@ -336,7 +378,7 @@ strong{
 
 
 /* now it's for post 4 */
-.post-4{
+.post-4 {
     position: relative;
     display: flex;
     justify-content: start;
@@ -348,16 +390,18 @@ strong{
     height: 450px;
     width: 609px;
 }
-.post-4::after{
+
+.post-4::after {
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgb(0, 0, 0,0.33);
+    background-color: rgb(0, 0, 0, 0.33);
 }
-.post-5{
+
+.post-5 {
     position: relative;
     display: flex;
     justify-content: start;
@@ -370,16 +414,18 @@ strong{
     width: 609px;
 
 }
-.post-5::after{
+
+.post-5::after {
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgb(0, 0, 0,0.33);
+    background-color: rgb(0, 0, 0, 0.33);
 }
-.post-6{
+
+.post-6 {
     position: relative;
     background-image: url(jeremy-bishop-_CFv3bntQlQ-unsplash-1-.jpg);
     background-position: center;
@@ -391,12 +437,197 @@ strong{
     justify-content: left;
     align-items: self-start;
 }
-.post-6::after{
+
+.post-6::after {
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgb(0, 0, 0,0.33);
+    background-color: rgb(0, 0, 0, 0.33);
+}
+
+.about-6:hover {
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+}
+
+.post-title-6:hover {
+    text-decoration: underline rgb(18, 224, 224);
+}
+
+/* hover for all strong tag in html for author name */
+strong:hover {
+    text-decoration: underline rgb(18, 224, 224);
+
+}
+
+
+/* these css for next page slider */
+.page-change-btn {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+    margin-top: 2rem;
+    position: relative;
+}
+
+#s {
+    font-size: 50px;
+    padding: 10px;
+    border: 1.5px solid #181818;
+    align-self: center;
+    text-align: center;
+    margin: 0px;
+}
+
+.next #s {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    right: 0%;
+
+}
+
+.prev #s {
+    position: absolute;
+    left: 0%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.prev #s:hover {
+    background-color: rgb(18, 224, 224);
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.next #s:hover {
+    background-color: rgb(18, 224, 224);
+    cursor: pointer;
+    color: white;
+    border: none;
+
+}
+
+.title-page {
+    color: #afafb2;
+    font-size: 16px;
+}
+
+/* for footer insider div */
+.footer-inside {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    /* gap: 2px; */
+
+}
+
+.four-box {
+    height: 400px;
+    width: 524px;
+    border: .03px solid #a3a0a0;
+
+}
+
+/* FOR CONTRIBUTOR DIV  */
+#con-img {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.title {
+    margin-top: 2rem;
+    font-weight: 800;
+}
+
+.con-img {
+    border-radius: 50%;
+    position: absolute;
+}
+
+/* wanted to flex img and post div */
+.im-con1 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 5rem;
+    flex-wrap: wrap;
+}
+
+.hilary-about {
+    margin-left: -60px;
+    position: absolute;
+    left: 9rem;
+    top: 1rem;
+}
+.hilary-con{
+    font-weight: 600;
+}
+.hilary-con:hover{
+    text-decoration: underline rgb(18, 224, 224);
+
+    
+}
+.hilary-con-post{
+    font-style: light;
+    font-size: 13px;
+    margin-top: 6px;
+    color: #afafb2;
+}
+
+/* experiment */
+.img-post-title {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+#populer {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    font-weight: 800;
+}
+.about-family{
+    margin-left: .80rem;
+}
+
+.family-title{
+    font-size: medium;
+    font-weight: 600;
+    color: #181818;
+}
+.family-title:hover{
+    text-decoration: underline rgb(18, 224, 224);
+}
+.light-text{
+    font-style: light;
+    font-size: 14px;
+    color: #a3a0a0;
+}
+#img-post-title{
+    margin-left: -5rem;
+}
+
+/* start for explore div  */
+.explore{
+    height: 250px;
+}
+.explore1{
+    height: 250px;
+
 }

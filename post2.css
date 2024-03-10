@@ -87,15 +87,15 @@ main {
 
 .first-img {
     --overlay-opacity: 0.5;
-    background-image: url(1-630.jpg);
+    background-image: url(image_2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    /* align-items: center; */
     opacity: .90;
     position: relative;
 }
@@ -110,6 +110,37 @@ main {
     background-color: rgba(0, 0, 0, var(--overlay-opacity));
 }
 
+/* start styling for post 0 */
+.about-0-img{
+    z-index: 1;
+    margin-left: 1.90rem;
+    margin-top: 4rem;
+    width: 80%;
+    
+}
+.about-0{
+    margin-bottom: 1.5rem;
+    padding: .2rem;
+    color: white;
+    background-color: rgb(41, 209, 209);
+    border: none;
+}
+.about-0:hover{
+    background-color: transparent;
+    border: 2px solid white;
+}
+.post-title-0{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 2rem;
+}
+.post-title-0:hover{
+    text-decoration: underline rgb(21, 208, 208);
+}
+.post-author-0{
+    color: white;
+}
 /* for div img */
 @media(max-width:1400px) {
     .first-img {
@@ -141,7 +172,7 @@ main {
         margin-left: 2rem;
     }
 
-    .about-first-img {
+    /* .about-first-img {
 
         border-left: 8px solid rgb(0, 153, 255);
         position: relative;
@@ -150,8 +181,9 @@ main {
         z-index: 1;
         margin-left: 3.75rem;
         /* Additional styles for your content */
-    }
-}
+    } 
+    
+
 
 @media(max-width:900px) {
     .first-img {
@@ -205,7 +237,7 @@ main {
 
 @media(max-width:620px) {
     .first-img {
-        height: 35vh;
+        height: 42vh;
         width: 100%;
     }
 
@@ -245,7 +277,16 @@ main {
         /* Additional styles for your content */
     }
 }
-@media(max-width:350px){
+@media(max-width:530px){
+    .first-img {
+        height: 50vh;
+        width: 100%;
+    }
+    .post-title-0{
+       font-size: 35px;
+    }
+}
+@media(max-width:380px){
     .first-img {
         height: 80vh;
         width: 100%;
@@ -253,6 +294,10 @@ main {
         justify-content: center;
         align-items: center;
     }
+
+    .post-title-0{
+        font-size: 26px;
+     }
     #about-first-img {
 
         border-left: 4px solid rgb(0, 153, 255);
@@ -268,6 +313,14 @@ main {
         font-weight: lighter;
     }
 
+}
+
+/* t's all illusion  */
+@media(max-width:300px){
+    .footer-stage{
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
 }
 
 .head {
@@ -448,14 +501,18 @@ ul li:hover {
     display: flex;
     justify-content: start;
     align-items: center;
-    background-image: url(japan-1.jpg);
+    background-image: url(image_3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
     width: 609px;
 }
-
+.rule-for-all-1{
+    position: absolute;
+    bottom: 1rem;
+    left: 1.90rem;
+}
 .post-1::after {
     content: '';
     position: absolute;
@@ -480,7 +537,11 @@ ul li:hover {
     width: 609px;
 
 }
-
+.rule-for-all-2{
+    position: absolute;
+    bottom: 1rem;
+    left: 1.90rem;
+}
 .post-2::after {
     content: '';
     position: absolute;
@@ -498,8 +559,6 @@ ul li:hover {
     width: 100%;
     margin-bottom: 150px;
     z-index: 990;
-
-
 }
 
 .about-post-2 {
@@ -520,6 +579,7 @@ ul li:hover {
     color: rgb(245, 241, 241);
     font-weight: 500;
     margin-top: 100px;
+
 }
 
 #post-btn:hover {
@@ -582,7 +642,7 @@ strong {
 
 @media(max-width:1300px) {
     #post-3-new {
-        height: 65vh;
+        height: 95vh;
         width: 100%;
     }
     #post-6-new{
@@ -607,7 +667,7 @@ strong {
 
 .post-3 {
     position: relative;
-    background-image: url(image_5.jpg);
+    background-image: url(post-3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -630,7 +690,7 @@ strong {
 
 .about-post-3 {
     margin-top: 3rem;
-    margin-left: 4rem;
+    margin-left: 32px;
     width: 700px;
     z-index: 999;
 
@@ -693,14 +753,18 @@ strong {
     display: flex;
     justify-content: start;
     align-items: center;
-    background-image: url(javier-martinez-xHlsVDnMRcM-unsplash-395.jpg);
+    background-image: url(image_6.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 450px;
     width: 609px;
 }
-
+.rule-for-all-4{
+    position: absolute;
+    bottom: 1rem;
+    left: 1.90rem;
+}
 .post-4::after {
     content: '';
     position: absolute;
@@ -716,7 +780,7 @@ strong {
     display: flex;
     justify-content: start;
     align-items: center;
-    background-image: url(image_7.jpg);
+    background-image: url(post=5.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -724,7 +788,11 @@ strong {
     width: 609px;
 
 }
-
+.rule-for-all-5{
+    position: absolute;
+    bottom: 1rem;
+    left: 1.90rem;
+}
 .post-5::after {
     content: '';
     position: absolute;
@@ -734,10 +802,10 @@ strong {
     left: 0;
     background-color: rgb(0, 0, 0, 0.33);
 }
-
+/* 
 .post-6 {
     position: relative;
-    background-image: url(jeremy-bishop-_CFv3bntQlQ-unsplash-1-.jpg);
+    background-image: url(interior-94.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -746,9 +814,9 @@ strong {
     display: flex;
     justify-content: left;
     align-items: self-start;
-}
+} */
 
-.post-6::after {
+/* .post-6::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -756,16 +824,16 @@ strong {
     top: 0;
     left: 0;
     background-color: rgb(0, 0, 0, 0.33);
-}
-
+} */
+/* 
 .about-6:hover {
     background-color: transparent;
     border: 2px solid whitesmoke;
-}
+} */
 
-.post-title-6:hover {
+/* .post-title-6:hover {
     text-decoration: underline rgb(18, 224, 224);
-}
+} */
 
 /* hover for all strong tag in html for author name */
 strong:hover {

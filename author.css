@@ -16,6 +16,7 @@ main {
         margin-right: 1rem;
     }
 }
+
 /* for author div */
 .author-0{
     height: 60vh;
@@ -23,6 +24,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 4rem;
 }
 .about-author-0{
     justify-content: center;
@@ -52,12 +54,14 @@ main {
     font-weight: lighter;
     font-size: 18px;
     margin-bottom: 2rem;
+
 }
 .author-site{
     margin-left: 20px;
     text-decoration: none;
     font-size: 14px;
     color: #565555;
+    margin-top: 10px;
 }
 .author-link:hover{
     text-decoration: underline rgb(15, 211, 211);
@@ -68,12 +72,6 @@ main {
     align-items: center;
     flex-wrap: wrap;
 }
-
-
-
-
-
-
 
 .nav-container {
     height: 77px;
@@ -379,18 +377,23 @@ main {
 
 /* for menu bar  */
 #bar {
+}
+.nav-container{
     position: relative;
+
 }
 
 .sidebar {
     position: absolute;
-    right: 2%;
-    top: 4rem;
-    height: 50vh;
+    /* right: 2%; */
+    top: -1rem;
+    right: -2rem;
+    height: 100vh;
     padding: 30px;
+    width: 70%;
     background-color: white;
     z-index: 999;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     display: none;
 
 }
@@ -402,26 +405,41 @@ ul li {
     margin-bottom: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    color: #423f3f;
+    color: #717174;
 }
 
 ul li:hover {
     opacity: 0.5;
 }
-
+.icons-fist{
+    margin-top:3rem;
+}
+.icons-link-fist{
+    font-size: x-large;
+    color: #717174;
+    margin-right: 20px;
+}
+.bottom-border{
+   border-bottom: 2px solid rgb(70, 65, 65);
+   margin-bottom: 2rem;
+}
 .explore {
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     color: #181818;
     font-size: 20px;
     font-weight: bold;
 }
+.sub-andsign{
+    margin-top: 3rem;
+}
 
 .hideBar .fa-times {
-    font-size: x-large;
+    font-size: xx-large;
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: lighter;
 }
 
 /* japan and new york post div  */
@@ -501,6 +519,48 @@ ul li:hover {
 
     
 }
+
+@media(min-width:360px){
+    .post-1{
+        position: relative;
+    }
+    .pos-1-btn{
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+    }
+    #post-3-new{
+        position: relative;
+    }
+    .post-3{
+        position: relative;
+    }
+    .post-4{
+        position: relative;
+    }
+    .post-4-btn{
+        position: absolute;
+        left: 1.9rem;
+        bottom: 1rem;
+    }
+    .post-5{
+        position: relative;
+    }
+    .post-5-btn{
+        position: absolute;
+        left: 1.9rem;
+        bottom: 1rem;
+    }
+
+    
+}
+
+
+
+
+
+
+
 
 .post-1 {
     position: relative;

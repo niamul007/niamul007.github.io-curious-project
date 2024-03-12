@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>landing</title>
+    <link rel="stylesheet" href="landing.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/helvetica-neue-55"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+    </style>
+  </head>
+  <body>
+    <div class="nav-container">
+      <div class="nav-items">
+        <a href="index.html" class="logo-name" id="logo">CURIOUS</a>
+        <a href="" class="nav-link">AUTHOR</a>
+        <a href="" class="nav-link">TAG</a>
+        <a href="" class="nav-link">LANDING PAGE</a>
+        <a href="" class="nav-link">GHOST HOSTING</a>
+        <a href="" class="nav-link">MORE+</a>
+      </div>
+      <div class="subscribe">
+        <a href="" class="nav-link sub" id="nav-link-1k-2">SUBSCRIBE</a>
+        <a href="" class="nav-link sign" id="nav-link-1k-2">SIGN IN</a>
+        <a href="" class="nav-link search" id="nav-link-1k"
+          ><i class="fa fa-search" aria-hidden="true"></i
+        ></a>
+        <a
+          href="#"
+          class="nav-link searchs bar"
+          id="nav-link-1k"
+          onclick="showSidebar()"
+          ><i class="fa fa-bars" aria-hidden="true"></i
+        ></a>
+      </div>
+      <div class="sidebar" id="sidebar">
+        <h3 class="hideBar" onclick="removeBar()">
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </h3>
+        <ul>
+          <li class="explore">EXPLORE CURIOUS</li>
+          <li>AUTHOR</li>
+          <li>TAG</li>
+          <li>LANDING PAGE</li>
+          <li>GHOST HOSTING</li>
+          <li>STYLE GUIDE</li>
+          <li>CONTACT</li>
+          <li>SUBSCRIBE / SIGN UP</li>
+        </ul>
+      </div>
+    </div>
+    <main id="main">
+      <div class="subscriber-img">
+        <div class="sub-img"></div>
+        <div class="sub-btn">
+          <p class="sign-up" id="sign-up">Sign up for Curious</p>
+          <p class="sign-detail" id="sign-detail">
+            The Curious is an online magazine dedicated to travel, lifestyle and
+            design.
+          </p>
+          <div class="btn-for-sub">
+            <input
+              type="text"
+              name=""
+              id="input-field"
+              placeholder="Your email"
+              class="email"
+            />
+            <button id="sub-btn" class="btn">SUBSCRIBE</button>
+          </div>
+          <p class="after-emal">No spam. Unsubscribe anytime.</p>
+        </div>
+      </div>
+    </main>
+    <main>
+      <div class="footer-inside">
+        <div class="four-box contributor">
+          <div class="img" id="con-img">
+            <p class="title">CONTRIBUTOR</p>
+            <div class="im-con1">
+              <div class="h-img">
+                <img
+                  src="Hilary-Ouse.jpg"
+                  alt=""
+                  height="70px"
+                  width="70px"
+                  class="con-img"
+                />
+              </div>
+              <div class="hilary-about">
+                <p class="hilary-con">Hilary Ouse</p>
+                <p class="hilary-con-post">9 POST</p>
+              </div>
+            </div>
+            <div class="im-con1">
+              <div class="h-img">
+                <img
+                  src="Justin-Case-1.jpg"
+                  alt=""
+                  height="70px"
+                  width="70px"
+                  class="con-img"
+                />
+              </div>
+              <div class="hilary-about">
+                <p class="hilary-con">Justin Case</p>
+                <p class="hilary-con-post">2 POST</p>
+              </div>
+            </div>
+            <div class="im-con1">
+              <div class="h-img">
+                <img
+                  src="Gunther-Beard-1.jpg"
+                  alt=""
+                  height="70px"
+                  width="70px"
+                  class="con-img"
+                />
+              </div>
+              <div class="hilary-about">
+                <p class="hilary-con">Gunther Beard</p>
+                <p class="hilary-con-post">4 POST</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="four-box populer">
+          <p id="populer">POPULER</p>
+          <div class="img-post-title">
+            <img
+              src="image_12.jpg"
+              alt=""
+              class="family-img"
+              height="70px"
+              width="70px"
+            />
+            <div class="about-family">
+              <p class="family-title">
+                Mount Everest: Highest Mountain in the World
+              </p>
+              <span class="light-text">OCTOBER 5, 2015</span>
+            </div>
+          </div>
+          <div class="img-post-title">
+            <img
+              src="family.jpg"
+              alt=""
+              class="family-img"
+              height="70px"
+              width="70px"
+            />
+            <div class="about-family">
+              <p class="family-title">
+                How to Raise Kids with Good Self-Esteem
+              </p>
+              <span class="light-text">OCTOBER 5, 2015</span>
+            </div>
+          </div>
+          <div class="img-post-title">
+            <img
+              src="interior.jpg"
+              alt=""
+              class="family-img"
+              height="70px"
+              width="70px"
+            />
+            <div class="about-family">
+              <p class="family-title">Modern Interior Design</p>
+              <span class="light-text">OCTOBER 5, 2015</span>
+            </div>
+          </div>
+        </div>
+        <div class="four-box explore-1st spot">
+          <div class="tags">
+            <p class="explore-title" id="explore-title">EXPLORE</p>
+            <input type="button" value="TRAVEL" class="in-item" />
+            <input type="button" value="GETTING STARTED" class="in-item" />
+            <input type="button" value="TIPS" class="in-item" />
+            <input type="button" value="DESIGN" class="in-item" />
+            <input type="button" value="MUSIC" class="in-item" />
+            <input type="button" value="PHOTOGRAPHY" class="in-item" />
+            <input type="button" value="MINIMAL" class="in-item" />
+            <input type="button" value="SCINCE" class="in-item" />
+            <input type="button" value="ADVENTURE" class="in-item" />
+            <input type="button" value="LIFE STYLE" class="in-item" />
+          </div>
+        </div>
+        <div class="four-box explore-2">
+          <p class="curious">ABOUT CURIOUS</p>
+          <div class="about-curious-detail">
+            <span class="font-style-about"
+              >Curious is a well-structured, content-focused and easy to set up
+              Ghost theme with a bold design. Perfect for an online magazine,
+              journal or even a personal blog. Explore it yourself.</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="footer-stage">
+        <div class="footer" id="footer-link-copy">
+          <a href="" class="footer-links" id="foot-link-1">LANDING PAGE</a>
+          <a href="" class="footer-links">LIFE STYLE</a>
+          <a href="" class="footer-links">ABOUT</a>
+          <a href="" class="footer-links">CONTACT</a>
+          <a href="" class="footer-links">HELP</a>
+          <a href="" class="footer-links">GHOST HOSTING</a>
+          <p class="copy">
+            CURIOUS © 2024 CURIOUS THEME BY JUST GOOD THEMES. POWERED BY GHOST.
+          </p>
+        </div>
+        <div class="icons">
+          <a href="" class="icons-link"
+            ><i class="fa fa-facebook" aria-hidden="true"></i
+          ></a>
+          <a href="" class="icons-link"
+            ><i class="fa fa-twitter" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
+    </main>
+    <script src="page2.js"></script>
+  </body>
+</html>

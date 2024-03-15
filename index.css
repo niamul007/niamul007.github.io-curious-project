@@ -325,30 +325,49 @@ main {
 
 
 /* for menu bar  */
-#bar {
+/* #bar {
 }
 .nav-container{
     position: relative;
 
-}
+} */
 
-.sidebar {
+/* .sidebar {
     position: absolute;
-    /* right: 2%; */
-    top: -1rem;
+     right: 2%; 
+    top: 2rem;
     right: -2rem;
     height: 100vh;
     padding: 30px;
     width: 70%;
     background-color: white;
     z-index: 999;
-    /* border-radius: 30px; */
+    /* border-radius: 30px; 
     display: none;
 
 }
+ */
 
+ #bar {
+    position: relative;
+}
 
+.sidebar {
+    position: absolute;
+    right: 2%;
+    top: 4rem;
+    height: 70vh;
+    padding: 30px;
+    background-color: white;
+    z-index: 999;
+    border-radius: 30px;
+    display: none;
 
+}
+li >a{
+    text-decoration: none;
+    color: #717174 ;
+}
 ul li {
     list-style: none;
     margin-bottom: 1rem;
@@ -361,7 +380,7 @@ ul li:hover {
     opacity: 0.5;
 }
 .icons-fist{
-    margin-top:3rem;
+    margin-top:1rem;
 }
 .icons-link-fist{
     font-size: x-large;
@@ -379,7 +398,7 @@ ul li:hover {
     font-weight: bold;
 }
 .sub-andsign{
-    margin-top: 3rem;
+    margin-top: 1.5rem;
 }
 
 .hideBar .fa-times {
@@ -435,6 +454,40 @@ ul li:hover {
     }
 }
 @media(max-width:360px){
+    .post-1{
+        position: relative;
+    }
+    .pos-1-btn{
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+    }
+    #post-3-new{
+        position: relative;
+    }
+    .post-3{
+        position: relative;
+    }
+    .post-4{
+        position: relative;
+    }
+    .post-4-btn{
+        position: absolute;
+        left: 1.9rem;
+        bottom: 1rem;
+    }
+    .post-5{
+        position: relative;
+    }
+    .post-5-btn{
+        position: absolute;
+        left: 1.9rem;
+        bottom: 1rem;
+    }
+
+    
+}
+@media(min-width:360px){
     .post-1{
         position: relative;
     }

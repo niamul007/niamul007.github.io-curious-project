@@ -5,11 +5,10 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-main {
-    margin: 0 2rem; /* Apply 2rem margin on left and right */
-  }
-
+main{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
 @media(max-width:900px){
     main {
         margin-left: 1rem;
@@ -132,7 +131,7 @@ ul li:hover {
     align-items: center;
 }
 
-@media(max-width:1050px){
+@media(max-width:1090px){
     #input-field{
         padding-top: 15px;
         padding-bottom: 15px;
@@ -167,7 +166,7 @@ ul li:hover {
         color: #312f2f;
     }
 }
-@media(max-width:860px){
+@media(max-width:960px){
     #input-field{
         padding-top: 15px;
         padding-bottom: 15px;
@@ -203,7 +202,7 @@ ul li:hover {
     }
 }
 
-@media(max-width:780px){
+@media(max-width:830px){
     #input-field{
         padding-top: 15px;
         padding-bottom: 15px;
@@ -238,21 +237,175 @@ ul li:hover {
         color: #312f2f;
     }
 }
-@media(max-width:666px){
+
+@media(max-width:716px){
+    #input-field{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 2rem;
+        padding-left: 1rem;
+        border: 1px solid #c6c3c3;
+    }
+    #sub-btn{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: .40rem;
+        padding-left: .40rem;
+        color: white;
+        background-color: rgb(24, 211, 211);
+        border: none;
+    }
+    #sign-up{
+        font-size: 29px;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    #sign-detail{
+        font-size: 15px;
+        text-align: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        color:  #312f2f;
+    }
+    .after-emal{
+        margin-top: 1rem;
+        font-size: 12px;
+        color: #312f2f;
+    }
+    #p1{
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-bottom: 3rem;
+        font-size: 20px;
+        color: #4c4c4c;
+        text-align: center;
+        
+    }
+    .big-font{
+        font-size: 25px;
+        color: #181818;
+        font-weight: lighter;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    #p2{
+        margin-left: 3rem;
+        margin-right: 6rem;
+        margin-bottom: 3rem;
+        font-size: 20px;
+        color: #4c4c4c;
+        text-align: center;
+    }
+}
+@media(max-width:681px){
     .subscriber-img{
         height: 80vh;
-        width:100vw;
+        width:100%;
         margin-top: 3rem;
         display: flex;
         justify-content: start;
         align-items: center;
         flex-direction: column;
     }
+    #p1{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 3rem;
+        font-size: 20px;
+        color: #4c4c4c;
+        text-align: center;
+        
+    }
+    .big-font{
+        font-size: 24px;
+        color: #181818;
+        font-weight: lighter;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    #p2{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 3rem;
+        font-size: 20px;
+        color: #4c4c4c;
+        text-align: center;
+    }
 }
+@media(max-width:374px){
+    #btn-for-sub{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #input-field{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 3rem;
+        padding-left: 1rem;
+        border: 1px solid #c6c3c3;
+
+    }
+    #sub-btn{
+
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 3rem;
+        padding-left: 1rem;
+        width: 100%;
+        color: white;
+        background-color: rgb(24, 211, 211);
+        border: none;
+    }
+    #sign-up{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    #sign-detail{
+        font-size: 13px;
+        text-align: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        color:  #312f2f;
+    }
+    .after-emal{
+        margin-top: 2rem;
+        font-size: 12px;
+        color: #312f2f;
+        font-weight: 200;
+    }
+    #p1{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 3rem;
+        font-size: 20px;
+        color: #4c4c4c;
+        text-align: center;
+        
+    }
+    .big-font{
+        font-size: 25px;
+        color: #181818;
+        font-weight: lighter;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    #p2{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 3rem;
+        font-size: 20px;
+        color: #4c4c4c;
+        text-align: center;
+    }
+}
+
 
 .subscriber-img{
     height: 80vh;
-    width:100;
+    width:100%;
     margin-top: 3rem;
     display: flex;
     justify-content: start;
@@ -265,7 +418,7 @@ ul li:hover {
     background-repeat: no-repeat;
     background-size: cover;
     height: 548px;
-    width:100vw;
+    width:100%;
 }
 .sub-btn{
     height: 548px;
@@ -303,9 +456,9 @@ ul li:hover {
     padding-left: 1rem;
     border: 1px solid #c6c3c3;
 }
-#input-field:focus{
+/* #input-field:focus{
     outline: 1px solid #565555;
-}
+} */
 .btn{
     padding-top: 15px;
     padding-bottom: 15px;
@@ -659,4 +812,113 @@ input::placeholder{
 .fa-twitter,.fa-facebook{
     text-decoration: none;
     color: black;
+}
+
+
+
+.peragraph{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pera-about-landing-page{
+    margin-top: 4rem;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 3rem;
+    font-size: 20px;
+    color: #4c4c4c;
+    text-align: center;
+    
+}
+.big-font{
+    font-size: 30px;
+    color: #181818;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.p2{
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 3rem;
+    font-size: 20px;
+    color: #4c4c4c;
+}
+
+
+
+.wrapper{
+    box-sizing: border-box;
+    max-width: 75%;
+    margin: auto;
+}
+.wrapper > h1{
+      margin: 1.5rem;
+      text-align: start;
+}
+.accordion{
+    background-color: white;
+    color:rgb(0,0,0,0.8) ;
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 2rem 2.5rem;
+    border: none;
+    outline: none;
+    transition: .4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.accordion i{
+    font-size: 1.6rem;
+
+}
+.active, .accordion:hover{
+    background-color:#f1f7f5 ;
+}
+.pannel{
+    padding: 0 2rem 2.5rem 2rem ;
+    background-color: white;
+    overflow: hidden;
+    background-color:#f1f7f5 ;
+    display: none;
+}
+.pannel p{
+    color:rgb(0,0,0,0.8) ;
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.faq{
+    border:  1px solid rgba(0,0, 0,0.2);
+    margin: 10px 0;
+}
+.faq.active{
+    border: none;
+}
+/* for created element  */
+.para-for-div{
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 2rem;
+}
+
+.after{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-for-faq{
+    font-size: 20px;
+    color: #4c4c4c;
+    text-align: center;
 }

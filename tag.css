@@ -412,13 +412,69 @@ main {
     position: absolute;
     right: 2%;
     top: 4rem;
-    height: 50vh;
+    height: 70vh;
     padding: 30px;
     background-color: white;
     z-index: 999;
     border-radius: 30px;
     display: none;
 
+}
+
+li >a{
+    text-decoration: none;
+    color: #717174 ;
+}
+.bottom-border{
+    border-bottom: 2px solid rgb(70, 65, 65);
+    margin-bottom: 2rem;
+ }
+.icons-fist{
+    margin-top:2rem;
+}
+.icons-link-fist{
+    font-size: x-large;
+    color: #717174;
+    margin-right: 20px;
+}
+
+
+ul li {
+    list-style: none;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #717174;
+    cursor: pointer;
+}
+
+ul li:hover {
+    opacity: 0.5;
+}
+#icons{
+    margin-top:2.7rem;
+}
+.icons-link-fist>i:hover{
+    opacity: .5;
+}
+.icons-link-fist{
+    font-size: x-large;
+    color: #717174;
+    margin-right: 20px;
+}
+.bottom-border{
+   border-bottom: 2px solid rgb(70, 65, 65);
+   margin-bottom: 2rem;
+}
+.explore {
+    margin-bottom: 2rem;
+    color: #181818;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sub-andsign{
+    margin-top: 1rem;
 }
 
 
@@ -443,7 +499,7 @@ ul li:hover {
 }
 
 .hideBar .fa-times {
-    font-size: x-large;
+    font-size: xx-large;
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
